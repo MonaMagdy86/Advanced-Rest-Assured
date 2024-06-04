@@ -3,10 +3,13 @@
 <suite parallel="false" name="RestAssured">
     <test name="API">
         <classes>
-           <class name="com.RestAssured.Users"/>
-            <class name="com.RestAssured.Register"/>
-            <class name="com.RestAssured.Login"/>
-            <class name="com.RestAssured.Delay"/>
+           <class name="testcases.UsersTest"/>
+            <class name="testcases.AlbumsTest"/>
+            <class name="testcases.CommentsTest"/>
+            <class name="testcases.PhotosTest"/>
+            <class name="testcases.PostsTest"/>
+            <class name="testcases.TodosTest"/>
+
         </classes>
     </test>
 </suite>
